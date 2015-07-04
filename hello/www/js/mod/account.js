@@ -23,7 +23,7 @@ require(["mod/common"],function(common){
 });
 
 function clickHead(){
-	window.location.href="user/account/personal_info.html";
+	window.location.href="personal_info.html";
 }
 
 $(".account-balance-c").click(clickHead);
