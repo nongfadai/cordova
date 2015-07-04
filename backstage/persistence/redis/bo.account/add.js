@@ -13,7 +13,7 @@ redis.keys("*").then(function(result){
 // }).catch(function(err){
 
 // })
-function uuid
+//function uuid
 function addAccount(account){
 	var key="account:";
 	redis.hmset("*").then(function(result){
