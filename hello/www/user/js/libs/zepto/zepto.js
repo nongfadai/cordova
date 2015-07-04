@@ -9,8 +9,8 @@
 <meta name="handheldFriendly" content="true">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black">
-<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
-<link rel="stylesheet" type="text/css" href="/css/style.css?v=20150524" />
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+<link rel="stylesheet" type="text/css" href="css/style.css?v=20150524" />
 <style>
 	.npx_activity{
 		position:relative;
@@ -38,7 +38,7 @@ var _hmt = _hmt || [];
 	}
 })();
 </script>
-<script src="/js/wording.js"></script></head>
+<script src="js/wording.js"></script></head>
 <body style="background:#e7e6eb;">
 <div style="width:599px; height:306px; background:url('/user/images/404.jpg') no-repeat; margin:150px auto 0 auto; text-align:center; font-size:14px; font-family:Microsoft yahei; padding-top:180px; line-height:28px; color:#666;">
 所访问的页面不存在！<br />
