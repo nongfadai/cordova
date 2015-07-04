@@ -78,12 +78,18 @@ function login(user){
 	var account=user.account,mobile=user.mobile;
 	var key1="index:test:username:"+account;
 	var key2="index:test:mobile:"+mobile;
-	([client.exists(key1),client.exists(key2)]).reduce()
-	// .then(function(data) {
-	// 	console.log("data=", data)
-	// }).catch(function(error) {
-	// 	console.log("error=",error)
-	// });
+	client.exists(key1)
+	.then(function(data) {
+		console.log("data=", data);
+		if(!data){
+			return client.exists(key2);
+		}
+	}).then(function(data){
+		console.log("data222=", data);
+	})
+	.catch(function(error) {
+	 	console.log("error=",error)
+	});
 	console.log("login end");
 }
 test();
