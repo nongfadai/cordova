@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6751" systemVersion="13F1077" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="logo_nfd.png" translatesAutoresizingMaskIntoConstraints="NO" id="xVW-xq-A2A">
+                    <rect key="frame" x="60" y="94" width="240" height="128"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="0.54567874672335526" green="0.82483515252430017" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="xVW-xq-A2A" secondAttribute="trailing" constant="100" id="7Z5-5i-1B0"/>
+                <constraint firstAttribute="bottom" secondItem="xVW-xq-A2A" secondAttribute="bottom" constant="300" id="GWh-AQ-qqT"/>
+                <constraint firstItem="xVW-xq-A2A" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="100" id="RfW-Ws-yW9"/>
+                <constraint firstItem="xVW-xq-A2A" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="100" id="WeD-SD-743"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+            <point key="canvasLocation" x="353.5" y="347.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="logo_nfd.png" width="64" height="61"/>
+    </resources>
+</document>
