@@ -46,32 +46,14 @@ var _hmt = _hmt || [];
         <a href="/index.html" target="_self" class="logo">
             <img src="/img/logo.png" alt="logo">
         </a>
-        <a href="javascript:void(0)" class="menu">
-            </a>
+        <!-- 未登录态 -->
+            <a href="/login.html" target="_self" class="login right mr-m">登录</a>
+            <a href="/register.html" target="_self"  class="register right">注册</a>
         <div class="clearfix"></div>
     </div>
 </div>
-<!-- 登录态 -->
-<div id="menus" class="menus logined">
-	<a href="/user/logout.htm"  target="_self">
-		<img src="/img/header/logout.png" alt="logout" />
-		<span>
-			退出
-		</span>
-	</a>
-	<a href="/user/account/recharge.html" target="_self" >
-		<img src="/img/header/account.png" alt="account" />
-		<span>
-			充值
-		</span>
-	</a>
-	<a href="/project_list.html?tab=3"  target="_self">
-		<img src="/img/header/invest.png" alt="invest" />
-		<span>
-			投标
-		</span>
-	</a>
-	<div class="clearfix"></div>
+<!-- 未登录态 -->
+<div id="menus" class="menus unlogined">
 </div>
 <div class="clearfix"></div>
 <div class="menu-mask" id="menu-mask"></div>
