@@ -1,0 +1,64 @@
+{
+  "name": "app.nfd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/91blb/weixin.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/91blb/weixin/issues"
+  },
+  "dependencies": {
+    "MD5": "^1.2.1",
+    "beautifier": "^0.1.7",
+    "body-parser": "^1.10.2",
+    "colors": "^1.0.3",
+    "cookie-parser": "^1.3.3",
+    "dot": "^1.0.3",
+    "dot-include": "^0.1.1",
+    "expect.js": "^0.3.1",
+    "express": "^4.10.5",
+    "express-session": "^1.10.4",
+    "express-velocity": "^1.0.0",
+    "express-xml-bodyparser": "0.0.7",
+    "formstream": "^1.0.0",
+    "fs-extra": "^0.13.0",
+    "grunt-contrib-concat": "^0.5.0",
+    "grunt-contrib-cssmin": "^0.12.2",
+    "grunt-contrib-requirejs": "^0.4.4",
+    "grunt-contrib-uglify": "^0.6.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "js-beautify": "^1.5.4",
+    "matchdep": "^0.3.0",
+    "muk": "^0.3.2",
+    "multer": "^0.1.7",
+    "node-js-beautify": "^0.1.0",
+    "node-rsa": "^0.2.13",
+    "path": "^0.4.9",
+    "promise-redis": "0.0.1",
+    "q": "^1.4.1",
+    "redis": "^0.12.1",
+    "request": "^2.51.0",
+    "rsvp": "^3.0.18",
+    "serve-favicon": "^2.1.7",
+    "sha1": "^1.1.0",
+    "shelljs": "^0.3.0",
+    "should": "^6.0.1",
+    "strip-json-comments": "^1.0.2",
+    "urllib": "^2.3.4",
+    "velocity": "^0.7.2",
+    "watch": "^0.13.0",
+    "wechat": "^1.2.4"
+  },
+  "homepage": "https://github.com/91blb/weixin",
+  "devDependencies": {
+    "wechat-api": "^1.8.1"
+  }
+}

@@ -1,5 +1,4 @@
 // JavaScript Document
-alert("config");
 require.config({
 	baseUrl:"js"
 //	paths:{
@@ -18,7 +17,7 @@ require.config({
 });
 require(["mod/common"],function(common){
 
-	function initBanner(){//初始化大图部分
+	function initBanner(){
 		//banner
 		try{
 			var bullets,bannerLength;	
