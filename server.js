@@ -52,6 +52,8 @@ app.use(bodyParser.urlencoded({
   extended: false
 }));
 
+//app.use(bodyParser.text());
+//bodyParser.text(options)
 // parse application/json
 app.use(bodyParser.json());
 app.use(xmlparser());

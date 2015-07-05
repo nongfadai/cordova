@@ -73,9 +73,9 @@ function del(){
 		console.log("error=",error)
 	});
 }
-function login(user){
+function login(user,cb){
 	console.log("login enter")
-	var account=user.account,mobile=user.mobile;
+	var account=user.account,mobile=user.account;
 	var key1="index:test:username:"+account;
 	var key2="index:test:mobile:"+mobile;
 	client.exists(key1)
@@ -84,12 +84,25 @@ function login(user){
 		if(!data){
 			return client.exists(key2);
 		}
-	}).then(function(data){
+		else{
+			cb({"ec":1})
+		}
+	})
+	.then(function(data){
 		console.log("data222=", data);
+		if(data===1){
+			cb({"ec":2})
+		}else if(data===0){
+			cb({"ec":3})
+		}else{
+			cb({"ec":4})
+		}
 	})
 	.catch(function(error) {
 	 	console.log("error=",error)
 	});
 	console.log("login end");
 }
-test();
+//test();
+
+module.exports=login
